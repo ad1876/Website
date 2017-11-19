@@ -5,7 +5,7 @@
 
 body{
 	background:white;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .wrapper{
@@ -102,7 +102,6 @@ a.tw{
 }
 
 .banner{
-    display: grid;
     background-image: url(../img/Loss-Of-Privacy-Svart.gif);
     background-size: contain;
     background-repeat: no-repeat;
@@ -187,7 +186,11 @@ p{
 }
 
 a{
-color:white;
+	color:white;
+}
+
+h2{
+	padding:10px;
 }
 
 
