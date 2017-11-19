@@ -105,22 +105,10 @@ a.tw{
     display: grid;
     background-image: url(../img/Loss-Of-Privacy-Svart.gif);
     background-size: contain;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    height: 50px;
-    background-repeat: no-repeat;
-	background-position: center;
-	
-=======
     background-repeat: no-repeat;
     height: 100px;
     background-position: center;
->>>>>>> 44c9fe6000818c3d1eb4144d691a39cf5d4002ad
-=======
-    background-repeat: no-repeat;
-    height: 100px;
-    background-position: center;
->>>>>>> 44c9fe6000818c3d1eb4144d691a39cf5d4002ad
+
 }
 
 aside{
