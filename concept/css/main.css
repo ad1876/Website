@@ -9,10 +9,12 @@ body{
 
 .wrapper{
 	width:100%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1% 5%;
 	background:white;
+	display:flex;
+	justify-content: space-between;
 	
 }
 
@@ -86,45 +88,32 @@ a.tw{
 	height:20px;
 }
 
-.fakeavtal{
-	border:solid 2px green;
-	border-radius: 25px;
+aside{
+	border:solid black 2px;
+	border-radius: 20px;
+	width:250px;
+	height:500px;
 	padding:20px;
-	width: 800px;
-	margin: 20px auto;  
-}
-.buttons{
-	display:flex;
-	justify-content: center;
-}
-
-.button{
-	width:70px;
-	height:40px;
-	border-radius:20px;
-}
-.one{
-	background:green;
-}
-
-.two{
-	background:red;
-}
-
-@media only screen and (max-width:960px){
-	nav{
-		display:block;
-	}
-	nav ul{
-		display:block;
-	}
 	
-	nav li:hover{
-		background:lightgray;
-	}
-	
-	.hej{
-		margin:0;
-	}
-
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 7fr ;
+	text-align: center;
 }
+
+.panel-body{
+	overflow:scroll;
+	margin:0;
+}
+
+.panel-header h1{
+	padding:10px;
+	
+}
+
+
+
+
+
+
+
