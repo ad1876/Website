@@ -1,0 +1,130 @@
+*{
+	font-family:'Verdana';
+	margin:0;
+}
+
+body{
+	background:#eee;
+}
+
+.wrapper{
+	width:100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 1% 5%;
+	background:white;
+	
+}
+
+/*Menu, color and text styling*/
+
+nav{
+	background:#333;
+	display:flex;
+	justify-content: space-between;
+}
+
+nav ul{
+	display:flex;
+	list-style-type: none;
+	padding:0;
+}
+
+nav li{
+	padding:5px;
+	text-align: center;
+}
+
+nav a{
+	color:white;
+	text-decoration: none;
+	display:block;
+	text-align: center;
+	padding:10px;
+	font-weight:bold;
+}
+
+nav li:hover{
+	background:#ffbb33;
+}
+
+/*Social media icons NavBar*/
+
+a.fb{
+	background:url(../img/facebook.png) no-repeat center;
+	background-size:40%;
+	text-indent: -10000px;
+  	margin: 0 auto;
+	width:70px;
+	height:20px;
+}
+a.insta{
+	background:url(../img/instagram.png) no-repeat center;
+	background-size:40%;
+	text-indent: -10000px;
+  	margin: 0 auto;
+	width:70px;
+	height:20px;
+	
+}
+
+a.snap{
+	background:url(../img/snapchat.png) no-repeat center;
+	background-size:40%;
+	text-indent: -10000px;
+  	margin: 0 auto;
+	width:70px;
+	height:20px;
+}
+
+a.tw{
+	background:url(../img/twitter.png) no-repeat center;
+	background-size:40%;
+	text-indent: -10000px;
+  	margin: 0 auto;
+	width:70px;
+	height:20px;
+}
+
+.fakeavtal{
+	border:solid 2px green;
+	border-radius: 25px;
+	padding:20px;
+	width: 800px;
+	margin: 20px auto;  
+}
+.buttons{
+	display:flex;
+	justify-content: center;
+}
+
+.button{
+	width:70px;
+	height:40px;
+	border-radius:20px;
+}
+.one{
+	background:green;
+}
+
+.two{
+	background:red;
+}
+
+@media only screen and (max-width:960px){
+	nav{
+		display:block;
+	}
+	nav ul{
+		display:block;
+	}
+	
+	nav li:hover{
+		background:lightgray;
+	}
+	
+	.hej{
+		margin:0;
+	}
+
+}
