@@ -101,6 +101,14 @@ a.tw{
 	height:20px;
 }
 
+.banner{
+    background-image: url(../img/Loss.gif);
+    background-color: greenyellow;
+    background-size: contain;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
 aside{
 	background-color: antiquewhite;
 	border:solid #333 2px;
