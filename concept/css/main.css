@@ -114,16 +114,16 @@ aside{
 .panel-body{
 	overflow:scroll;
 	margin:0;
+    text-align: left;
 }
 
 .panel-header{
     display: grid;
     grid-template-columns: 1fr 2fr;
 	padding:10px;
-    text-align: left;
-    
-    
+    text-align: left; 
 }
+
 
 .ikonF{
     background-image: url(../img/facebook.png);
