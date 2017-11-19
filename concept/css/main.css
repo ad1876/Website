@@ -102,12 +102,12 @@ a.tw{
 }
 
 .banner{
+    display: grid;
     background-image: url(../img/Loss-Of-Privacy-Svart.gif);
-    background-color: #eee;
     background-size: contain;
-    height: 100px;
     background-repeat: no-repeat;
-    position: center;
+    height: 100px;
+    background-position: center;
 }
 
 aside{
