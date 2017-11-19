@@ -22,7 +22,7 @@ body>div>div>div{
 }
 .image{
     display: flex;
-    background-image: url(bilder/Loss-Of-Privacy%20Trans.gif);
+    background-image: url(../img/Loss.gif);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;

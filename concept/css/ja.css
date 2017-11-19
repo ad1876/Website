@@ -10,7 +10,7 @@ body{
 
 body>div{
     display: flex;
-    background-image: url(bilder/varning.gif);
+    background-image: url(../img/varning.gif);
     background-repeat: no-repeat;
     background-size: contain;
     height: 80vh;
