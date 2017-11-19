@@ -5,6 +5,7 @@
 
 body{
 	background:#eee;
+	margin-top: 50px;
 }
 
 .wrapper{
@@ -24,6 +25,9 @@ nav{
 	background:#333;
 	display:flex;
 	justify-content: space-between;
+	position:fixed;
+	top:0;
+	width:100%;
 }
 
 nav ul{
