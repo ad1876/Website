@@ -4,7 +4,7 @@
 }
 
 body{
-	background:lightslategray;
+	background:white;
 	margin-top: 50px;
 }
 
@@ -13,7 +13,7 @@ body{
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1% 5%;
-	background:lightslategray;
+	background:white;
 	display:flex;
 	justify-content: space-between;
 	
@@ -176,7 +176,7 @@ p{
 }
 
 .foot{
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
