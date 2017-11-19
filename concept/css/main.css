@@ -106,11 +106,40 @@ aside{
 	margin:0;
 }
 
-.panel-header h1{
+.panel-header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 	padding:10px;
-	
+    text-align: left;
+    
+    
 }
 
+.ikonF{
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ikonS{
+    background-image: url(../img/snapchat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ikonI{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.ikonT{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 
 
 
