@@ -118,7 +118,7 @@ aside{
 	background:;
 	display:grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 7fr ;
+	grid-template-rows: 0.5fr 7fr ;
 	text-align: center;
     border-radius: 20px;
     padding-bottom: 20px;
@@ -134,7 +134,7 @@ aside{
     display: grid;
     grid-template-columns: 1fr 2fr;
 	padding:10px;
-    text-align: left; 
+    text-align: left;
     background-color: #333;
     color: white;
     border-top-left-radius:15px;
@@ -147,6 +147,7 @@ aside{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    height: 1.5rem;
 }
 
 .ikonS{
@@ -154,18 +155,21 @@ aside{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    height: 1.5rem;
 }
 .ikonI{
     background-image: url(../img/instagram.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    height: 1.5rem;
 }
 .ikonT{
     background-image: url(../img/twitter.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    height: 1.5rem;
 }
 
 p{
