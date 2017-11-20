@@ -8,6 +8,26 @@ body{
 	margin-top: 100px;
 }
 
+.wrapperTop{
+	width:100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1% 5%;
+	background:white;
+	display:flex;
+	justify-content: center;
+}
+
+.nivTop{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: solid #333 1px;
+}
+.nivTop a{
+    border: solid #333 2px;
+    padding: 5px;
+}
+
 .wrapper{
 	width:100%;
 	max-width: 1200px;
@@ -16,7 +36,6 @@ body{
 	background:white;
 	display:flex;
 	justify-content: space-between;
-	
 }
 
 /*Menu, color and text styling*/
@@ -121,7 +140,21 @@ aside{
 	grid-template-rows: 0.5fr 7fr ;
 	text-align: center;
     border-radius: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.top{
+	background-color:antiquewhite;
+	border:solid #333 2px;
+	width:600px;
+	height:500px;
+	background:;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 7fr ;
+	text-align: center;
+    border-radius: 20px;
+    padding-bottom: 20px;
 }
 
 .panel-body{
@@ -141,6 +174,16 @@ aside{
     border-top-right-radius: 15px;
 }
 
+.panel-headerTop{
+    display: grid;
+    grid-template-columns: 1fr;
+	padding:10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
 
 .ikonF{
     background-image: url(../img/facebook.png);
@@ -189,7 +232,7 @@ p{
     color: white;
 }
 
-a{
+.bot{
 	color:white;
 }
 
@@ -197,14 +240,4 @@ h2{
 	padding:10px;
 }
 
-
-.face{
-    background-image: url(../img/facebook.png);
-    height: 40px;
-    width: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px auto;
-    margin-top: 5px;
-}
 

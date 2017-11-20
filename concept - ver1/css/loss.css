@@ -15,7 +15,7 @@ body{
 	padding: 1% 5%;
 	background:white;
 	display:flex;
-	justify-content: space-between;
+	justify-content: center;
 	
 }
 
@@ -101,19 +101,10 @@ a.tw{
 	height:20px;
 }
 
-.banner{
-    background-image: url(../img/Loss-Of-Privacy-Svart.gif);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100px;
-    background-position: center;
-
-}
-
 aside{
 	background-color:antiquewhite;
 	border:solid #333 2px;
-	width:280px;
+	width:600px;
 	height:500px;
 	background:;
 	display:grid;
@@ -121,7 +112,7 @@ aside{
 	grid-template-rows: 0.5fr 7fr ;
 	text-align: center;
     border-radius: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .panel-body{
@@ -132,44 +123,13 @@ aside{
 
 .panel-header{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
 	padding:10px;
-    text-align: left;
+    text-align: center;
     background-color: #333;
     color: white;
     border-top-left-radius:15px;
     border-top-right-radius: 15px;
-}
-
-
-.ikonF{
-    background-image: url(../img/facebook.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-}
-
-.ikonS{
-    background-image: url(../img/snapchat.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-}
-.ikonI{
-    background-image: url(../img/instagram.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-}
-.ikonT{
-    background-image: url(../img/twitter.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
 }
 
 p{
@@ -196,15 +156,3 @@ a{
 h2{
 	padding:10px;
 }
-
-
-.face{
-    background-image: url(../img/facebook.png);
-    height: 40px;
-    width: 40px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0px auto;
-    margin-top: 5px;
-}
-
