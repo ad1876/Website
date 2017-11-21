@@ -9,14 +9,15 @@ body{
 	font-family: 'Verdana';
 }
 
+/********* NAVBAR SECTION START*********/
+
 nav{
 	display:flex;
 	justify-content: space-between;
 	position:fixed;
 	top:0;
 	width:100%;
-	background:#333;
-	
+	background:#333;	
 }
 
 nav ul{
@@ -41,7 +42,7 @@ nav a{
 }
 
 
-/* Specified Icons on NavBar*/
+/* Icons on NavBar*/
 
 .icon{
 	background-repeat: no-repeat;
@@ -67,5 +68,26 @@ a.snap{
 a.tw{
 	background-image: url(../img/twitter.png);
 }
+
+/* Responsive Navbar*/
+
+@media only screen and (max-width:960px){
+ 	nav{
+ 		display:block;
+		margin: 0;
+		padding:0;
+ 	}
+ 	nav ul{
+		display:block;
+ 	}
+ 	
+ 	nav li:hover{
+ 		background:lightgray;
+ 	}
+ 
+ }
+
+
+/********* NAVBAR SECTION END*********/
 
 
