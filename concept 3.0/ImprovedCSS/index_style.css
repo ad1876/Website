@@ -4,8 +4,8 @@
 }
 
 body{
-	font-family: 'Verdana';
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DAE3E5;
 }
 
 /********* NAVBAR SECTION START*********/
@@ -16,12 +16,14 @@ nav{
 	position:fixed;
 	top:0;
 	width:100%;
-	background:#333;	
+	background:#04080F;	
 }
 
 nav ul{
 	display:flex;
 	list-style-type: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
 }
 
 nav li{
@@ -30,7 +32,7 @@ nav li{
 
 
 nav li:hover{
-	background:#ffbb33;
+	background:#F6BF58;
 } 
 
 nav a{
@@ -88,20 +90,18 @@ a.tw{
 	margin: 1vh auto;
 	background:white;
     margin-top: 10vh;
+    background-color: #DAE3E5;
     
 }
 
 /***Mobil layout section start***/
 aside{
-	background-color:antiquewhite;
-	border:solid #333 2px;
 	height: 70vh;
     width: 18rem;
 	display:grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.5fr 7fr ;
 	text-align: center;
-    border-radius: 20px;
     margin: 1vh;
 }
 
@@ -110,7 +110,7 @@ aside{
     grid-template-columns: 1fr 2fr;
 	padding:1vw;
     text-align: left;
-    background-color: #333;
+    background-color: #04080F;
     color: white;
     border-top-left-radius:15px;
     border-top-right-radius: 15px;
@@ -142,15 +142,14 @@ aside{
     height: 1.5rem;
 }
 
-h2{
-	padding:1vw;
-}
-
 
 .panel-body{
 	overflow-y:scroll;
 	margin:0;
     text-align: left;
+    background-color: antiquewhite;
+    border-left:solid #04080F 2px;
+    border-right:solid #04080F 2px;
 }
 
 p{
@@ -164,7 +163,7 @@ p{
     grid-template-columns: 1fr;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #333;
+    background-color: #04080F;
     padding: 0.2vw 0;
 }
 
@@ -193,6 +192,23 @@ p{
 .twitter{
     background-image: url(../img/twitter.png);
 }
+
+.boxF>a:hover{
+    background-color: #385899;  
+}
+
+.boxS>a:hover{
+    background-color: #FFFB00;
+}
+
+.boxI>a:hover{
+    background-color: #AC1587;  
+}
+
+.boxT>a:hover{
+    background-color: #1DA1F4;  
+}
+
 /***Mobil layout section end***/
 
 /***footer section start***/
@@ -202,7 +218,7 @@ p{
     bottom: 0;
     left: 0;
     text-align: center;
-    background-color: #333;
+    background-color: #04080F;
     color: white;
 }
 
