@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Verdana';
+}
+
+/********* NAVBAR SECTION START*********/
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	position:fixed;
+	top:0;
+	width:100%;
+	background:#333;	
+}
+
+nav ul{
+	display:flex;
+	list-style-type: none;
+}
+
+nav li{
+	padding:0.8vw 1.5vw;
+}
+
+
+nav li:hover{
+	background:#ffbb33;
+} 
+
+nav a{
+	color:white;
+	text-decoration: none;
+	padding:1vw;
+	font-weight:bold;
+}
+
+
+/* Icons on NavBar*/
+
+.icon{
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center;
+}
+a.home{
+    background-image: url(../img/whitehome.png);
+}
+
+a.fb{
+	background-image: url(../img/facebook.png);  
+}
+
+a.insta{
+	background-image: url(../img/instagram.png);
+}
+
+a.snap{
+	background-image: url(../img/snapchat.png);
+}
+
+a.tw{
+	background-image: url(../img/twitter.png);
+}
+
+/* Responsive Navbar*/
+
+@media only screen and (max-width:960px){
+ 	nav{
+ 		display:block;
+		margin:0;
+		padding:0;
+ 	}
+ 	nav ul{
+		display:block;
+ 	}
+	nav>ul:nth-child(2){
+		display:flex;
+		justify-content: center;
+	}
+
+ }
+
+
+
+/********* NAVBAR SECTION END*********/
+
+
