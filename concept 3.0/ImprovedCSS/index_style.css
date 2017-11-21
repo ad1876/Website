@@ -4,9 +4,8 @@
 }
 
 body{
-	height: 100vh;
-	width: 100vw;
 	font-family: 'Verdana';
+    margin: 0;
 }
 
 /********* NAVBAR SECTION START*********/
@@ -88,6 +87,7 @@ a.tw{
 	max-width: 78vw;
 	margin: 1vh auto;
 	background:white;
+    margin-top: 10vh;
     
 }
 
