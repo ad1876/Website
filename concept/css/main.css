@@ -121,11 +121,10 @@ aside{
 	grid-template-rows: 0.5fr 7fr ;
 	text-align: center;
     border-radius: 20px;
-    padding-bottom: 10px;
 }
 
 .panel-body{
-	overflow:scroll;
+	overflow-y:scroll;
 	margin:0;
     text-align: left;
 }
@@ -142,20 +141,16 @@ aside{
 }
 
 
-.ikonF{
-    background-image: url(../img/facebook.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
+.ikonF>div{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background: white;
+    margin: 6px auto;
 }
 
 .ikonS{
-    background-image: url(../img/snapchat.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
+
 }
 .ikonI{
     background-image: url(../img/instagram.png);
@@ -197,14 +192,84 @@ h2{
 	padding:10px;
 }
 
-
-.face{
+.face div{
     background-image: url(../img/facebook.png);
     height: 40px;
     width: 40px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0px auto;
     margin-top: 5px;
 }
+
+.face{
+    display: grid;
+    width: 280px;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.snap div{
+    background-image: url(../img/snapchat.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+}
+
+.snap{
+    display: grid;
+    width: 280px;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta div{
+    background-image: url(../img/instagram.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+}
+
+.insta{
+    display: grid;
+    width: 280px;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter div{
+    background-image: url(../img/twitter.png);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5px;
+}
+
+.twitter{
+    display: grid;
+    width: 280px;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:#333 ;
+    justify-content: center;
+    align-items: center;
+}
+
 
