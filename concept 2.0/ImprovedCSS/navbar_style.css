@@ -74,18 +74,19 @@ a.tw{
 @media only screen and (max-width:960px){
  	nav{
  		display:block;
-		margin: 0;
+		margin:0;
 		padding:0;
  	}
  	nav ul{
 		display:block;
  	}
- 	
- 	nav li:hover{
- 		background:lightgray;
- 	}
- 
+	nav>ul:nth-child(2){
+		display:flex;
+		justify-content: center;
+	}
+
  }
+
 
 
 /********* NAVBAR SECTION END*********/
