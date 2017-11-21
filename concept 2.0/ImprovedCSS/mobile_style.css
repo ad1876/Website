@@ -1,0 +1,142 @@
+*{
+	font-family:'Verdana';
+	margin:0;
+}
+
+body{
+	background:white;
+}
+
+.banner{
+    background-image: url(../img/Loss-Of-Privacy-Svart.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+	width:100vw;
+	max-width: 78vw;
+	margin: 1vh auto;
+	background:white;
+	justify-content: space-between;
+    
+}
+
+aside{
+	background-color:antiquewhite;
+	border:solid #333 2px;
+	width: 18.5vw;
+	height: 70vh;
+	background:;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 7fr ;
+	text-align: center;
+    border-radius: 20px;
+}
+
+.panel-header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+	padding:1vw;
+    text-align: left;
+    background-color: #333;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.ikonF>div{
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    background: white;
+    margin: 6px auto;
+}
+
+.ikonS{
+
+}
+.ikonI{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+.ikonT{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+
+h2{
+	padding:1vw;
+}
+
+
+.panel-body{
+	overflow-y:scroll;
+	margin:0;
+    text-align: left;
+}
+
+p{
+    margin: 0.5rem;
+	line-height: 1.5rem;
+	padding: 1vw;
+}
+
+.box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 18.5vw;
+    height: 5vw;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #333;
+}
+
+.box>div{
+    height: 2vw;
+    width: 2vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+}
+
+.face{
+    background-image: url(../img/facebook.png);
+}
+
+.snap{
+    background-image: url(../img/snapchat.png);
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.foot{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+a{
+	color:white;
+}
