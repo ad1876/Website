@@ -7,9 +7,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
-    background-color: #DAE3E5;
-    position: relative;
-    
+    background-color: #DAE3E5;    
 }
 
 /********* NAVBAR SECTION START*********/
@@ -238,8 +236,21 @@ a{
     
 /***responsive device section ***/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    nav{
+ 		display:block;
+		margin:0;
+		padding:0;
+ 	}
+ 	nav ul{
+		display:block;
+ 	}
+	nav>ul:nth-child(2){
+		display:flex;
+		justify-content: center;
+	}
     .wrapper{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;  
     }
+}
 }
 /************* Mobil section end ******************/
