@@ -8,6 +8,7 @@ body{
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
     background-color: #DAE3E5;
+    position: relative;
     
 }
 
