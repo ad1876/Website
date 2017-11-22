@@ -4,8 +4,11 @@
 }
 
 body{
+    display: grid;
+    grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
     background-color: #DAE3E5;
+    
 }
 
 /********* NAVBAR SECTION START*********/
@@ -86,12 +89,13 @@ a.tw{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 	width:100%;
-	max-width: 78vw;
+	max-width: 80%;
 	margin: 1vh auto;
 	background:white;
     margin-top: 10vh;
     background-color: #DAE3E5;
-    
+    justify-content: center;
+    align-content: center;
 }
 
 /***Mobil layout section start***/
@@ -103,6 +107,8 @@ aside{
 	grid-template-rows: 0.5fr 7fr ;
 	text-align: center;
     margin: 1vh;
+    justify-content: center;
+    align-content: center;
 }
 
 .panel-header{
@@ -165,6 +171,7 @@ p{
     border-bottom-right-radius: 15px;
     background-color: #04080F;
     padding: 0.2vw 0;
+    border:2px solid #04080F;
 }
 
 .box>div{
@@ -194,7 +201,7 @@ p{
 }
 
 .boxF>a:hover{
-    background-color: #385899;  
+    background-color: #385899; 
 }
 
 .boxS>a:hover{
@@ -212,7 +219,7 @@ p{
 /***Mobil layout section end***/
 
 /***footer section start***/
-.foot{
+footer{
     position: relative;
     right: 0;
     bottom: 0;
@@ -228,6 +235,8 @@ a{
 /***footer section end***/
 
 /*** responsive normal section ***/
+
+
 @media only screen  and (min-width : 768px) and (max-width : 1024px) {
     .wrapper{
     grid-template-columns: 1fr 1fr;
