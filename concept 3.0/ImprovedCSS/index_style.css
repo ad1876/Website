@@ -114,41 +114,14 @@ aside{
 
 .panel-header{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
 	padding:1vw;
-    text-align: left;
+    text-align: center;
     background-color: #04080F;
     color: white;
     border-top-left-radius:15px;
     border-top-right-radius: 15px;
 }
-
-.ikonF>div{
-    border-radius: 50%;
-    height: 0.8rem;
-    width: 0.8rem;
-    background: white;
-    margin: 6px auto;
-}
-
-.ikonS{
-
-}
-.ikonI{
-    background-image: url(../img/instagram.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-}
-.ikonT{
-    background-image: url(../img/twitter.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 1.5rem;
-}
-
 
 .panel-body{
 	overflow-y:scroll;
