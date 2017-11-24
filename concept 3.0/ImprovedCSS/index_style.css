@@ -209,6 +209,11 @@ footer{
     box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
 
+a{
+	color:white;
+	text-decoration: none;
+}
+
 /***footer section end***/
 
 
@@ -284,7 +289,7 @@ input:checked ~ label{
 }
 
 
-@media only screen  and (min-width : 768px) {
+@media only screen  and (min-width : 890px) {
 	.dropdown-menu{
 		display:none;
 	}
@@ -294,7 +299,7 @@ input:checked ~ label{
 }
 
 
-@media only screen  and (max-width : 768px) {
+@media only screen  and (max-width : 890px) {
 	
     nav{
  		display:none;
