@@ -1,0 +1,421 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DAE3E5;
+    margin-top: 10px;
+}
+
+/********* NAVBAR SECTION START*********/
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	position:fixed;
+	top:0;
+	width:100%;
+	background:#04080F;	
+}
+
+.error{
+    margin-top: 50px;
+    font-size: 2rem;
+    background-color:black;
+    width: 100%;
+    color:white;
+    padding-bottom: 50px;
+}
+.errorknapp{
+    
+}
+
+nav ul{
+	display:flex;
+	list-style-type: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 1rem;
+}
+
+.nivTop{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: solid #333 1px;
+}
+
+.nivTop a{
+    border: solid #333 2px;
+    padding: 5px;
+}
+
+.panel-body{
+	overflow-y:scroll;
+	margin:0;
+    text-align: left;
+}
+
+.panel-header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+	padding:10px;
+    text-align: left;
+    background-color: black;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.top{
+	height: 70vh;
+    width: ;80%;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 7fr ;
+	text-align: center;
+    margin: 1vh;
+    justify-content: center;
+    align-content: center;
+}
+
+nav li{
+	padding:0.8vw 1vw;
+    text-align: center;
+}
+
+
+nav li:hover{
+	background:#F6BF58;
+} 
+
+nav a{
+	color:white;
+	text-decoration: none;
+	display:block;
+	text-align: center;
+	padding:10px;
+	font-weight:bold;
+    
+}
+
+
+/* Icons on NavBar*/
+
+.icon{
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center;
+}
+a.home{
+    background-image: url(../img/whitehome.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-indent: -10000px;
+    width: 1rem;
+    height: 1rem;
+    margin: 0 auto;
+    
+}
+
+a.fb{
+	background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 1rem;
+    height: 1rem;
+	text-indent: -10000px;
+  	margin: 0 auto;
+}
+
+a.insta{
+	background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 1rem;
+    height: 1rem;
+	text-indent: -10000px;
+  	margin: 0 auto;
+}
+
+a.snap{
+	background-image: url(../img/snapchat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 1rem;
+    height: 1rem;
+	text-indent: -10000px;
+  	margin: 0 auto;
+}
+
+
+
+a.tw{
+	background:url(../img/twitter.png) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 1rem;
+    height: 1rem;
+	text-indent: -10000px;
+  	margin: 0 auto;
+}
+/********* NAVBAR SECTION END*********/
+
+/************ Banner start**************/
+.banner{
+    background-image: url(../img/Loss-Of-Privacy-Svart.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/**********  Banner end ************/
+
+/************* Mobil section start ******************/
+/***Mobil background section***/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+	width:100%;
+	max-width: 80%;
+	margin: 1vh auto;
+	background:white;
+    margin-top: 10vh;
+    background-color: #DAE3E5;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.wrapperTop{
+    display: grid;
+    grid-template-columns: 1fr;
+	width:100%;
+	max-width: 80%;
+	margin: 1vh auto;
+	background:white;
+    margin-top: 10vh;
+    background-color: #DAE3E5;
+    justify-content: center;
+    align-content: center;
+}
+
+/***Mobil layout section start***/
+.wrapper>aside{
+	height: 70vh;
+    width: 18rem;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 7fr ;
+	text-align: center;
+    margin: 1vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.panel-headerTop{
+    display: grid;
+    grid-template-columns: 1fr;
+	padding:1vw;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.panel-headerBottom{
+    display: grid;
+    grid-template-columns: 1fr;
+	padding:1vw;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ikonF>div{
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    background: white;
+    margin: 6px auto;
+    text-align: center;
+}
+
+.ikonF{
+    text-align: center;
+}
+.ikonI{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+.ikonT{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+
+.ikonS{
+    background-image: url(../img/snapchat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+
+.ikonF{
+    background-image: url(../img/facebook.png)  ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+
+.panel-body{
+	margin:0;
+    text-align: left;
+    background-color: antiquewhite;
+    border-left:solid #04080F 1px;
+    border-right:solid #04080F 1px;
+}
+
+p{
+    margin: 0.5rem;
+	line-height: 1.5rem;
+	padding: 1vw;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #04080F;
+    padding: 0.2vw 0;
+    border:2px solid #04080F;
+}
+
+.box>div{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    align-self: center;
+    margin: 6px auto;
+}
+
+.face{
+    background-image: url(../img/facebook.png);
+}
+
+.snap{
+    background-image: url(../img/snapchat.png);
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.boxF>a:hover{
+    background-color: #385899; 
+}
+
+.boxS>a:hover{
+    background-color: #FFFB00;
+}
+
+.boxI>a:hover{
+    background-color: #AC1587;  
+}
+
+.boxT>a:hover{
+    background-color: #1DA1F4;  
+}
+
+/***Mobil layout section end***/
+
+/***footer section start***/
+footer{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+}
+
+
+a{
+	color:white;
+}
+
+
+
+
+/***footer section end***/
+
+/*** responsive normal section ***/
+
+
+@media only screen  and (min-width : 768px) and (max-width : 1024px) {
+    .wrapper{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+/***responsive normal section ***/
+@media only screen  and (max-width : 768px) {
+    nav{
+ 		display:block;
+		margin:0;
+		padding:0;
+ 	}
+ 	nav ul{
+		display:block;
+ 	}
+	nav>ul:nth-child(2){
+		display:flex;
+		justify-content: center;
+	}
+    .wrapper{
+    grid-template-columns: 1fr;  
+    }
+}
+        
+/***responsive device section ***/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    nav{
+        display:none;
+ 	}
+    
+    .wrapper{
+    grid-template-columns: 1fr;
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+/************* Mobil section end ******************/
