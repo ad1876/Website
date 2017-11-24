@@ -1,0 +1,246 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Verdana';
+}
+
+/********* NAVBAR SECTION START*********/
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	position:fixed;
+	top:0;
+	width:100%;
+	background:#333;	
+}
+
+nav ul{
+	display:flex;
+	list-style-type: none;
+}
+
+nav li{
+	padding:0.8vw 1.5vw;
+}
+
+
+nav li:hover{
+	background:#ffbb33;
+} 
+
+nav a{
+	color:white;
+	text-decoration: none;
+	padding:1vw;
+	font-weight:bold;
+}
+
+
+/* Icons on NavBar*/
+
+.icon{
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center;
+}
+a.home{
+    background-image: url(../img/whitehome.png);
+}
+
+a.fb{
+	background-image: url(../img/facebook.png);  
+}
+
+a.insta{
+	background-image: url(../img/instagram.png);
+}
+
+a.snap{
+	background-image: url(../img/snapchat.png);
+}
+
+a.tw{
+	background-image: url(../img/twitter.png);
+}
+/********* NAVBAR SECTION END*********/
+
+/************ Banner start**************/
+.banner{
+    background-image: url(../img/Loss-Of-Privacy-Svart.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/**********  Banner end ************/
+
+/************* Mobil section start ******************/
+/***Mobil background section***/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+	width:100%;
+	max-width: 78vw;
+	margin: 1vh auto;
+	background:white;
+    
+}
+
+/***Mobil layout section start***/
+aside{
+	background-color:antiquewhite;
+	border:solid #333 2px;
+	height: 70vh;
+    width: 18rem;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 7fr ;
+	text-align: center;
+    border-radius: 20px;
+    margin: 1vh;
+}
+
+.panel-header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+	padding:1vw;
+    text-align: left;
+    background-color: #333;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.ikonF>div{
+    border-radius: 50%;
+    height: 0.8rem;
+    width: 0.8rem;
+    background: white;
+    margin: 6px auto;
+}
+
+.ikonS{
+
+}
+.ikonI{
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+.ikonT{
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 1.5rem;
+}
+
+h2{
+	padding:1vw;
+}
+
+
+.panel-body{
+	overflow-y:scroll;
+	margin:0;
+    text-align: left;
+}
+
+p{
+    margin: 0.5rem;
+	line-height: 1.5rem;
+	padding: 1vw;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #333;
+    padding: 0.2vw 0;
+}
+
+.box>div{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    align-self: center;
+    margin: 6px auto;
+}
+
+.face{
+    background-image: url(../img/facebook.png);
+}
+
+.snap{
+    background-image: url(../img/snapchat.png);
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+/***Mobil layout section end***/
+
+/***footer section start***/
+.foot{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+a{
+	color:white;
+}
+/***footer section end***/
+
+/*** responsive normal section ***/
+@media only screen  and (min-width : 768px) and (max-width : 1024px) {
+    .wrapper{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+/***responsive normal section ***/
+@media only screen  and (max-width : 768px) {
+    nav{
+ 		display:block;
+		margin:0;
+		padding:0;
+ 	}
+ 	nav ul{
+		display:block;
+ 	}
+	nav>ul:nth-child(2){
+		display:flex;
+		justify-content: center;
+	}
+    .wrapper{
+    grid-template-columns: 1fr;  
+    }
+}
+    
+/***responsive device section ***/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .wrapper{
+    grid-template-columns: 1fr;
+    }
+}
+/************* Mobil section end ******************/
