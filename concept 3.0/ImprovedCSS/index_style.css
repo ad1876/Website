@@ -7,7 +7,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
-    background-color: #DAE3E5;    
+    background-color: slategray;    
 }
 
 /********* NAVBAR SECTION START*********/
@@ -19,6 +19,8 @@ nav{
 	top:0;
 	width:100%;
 	background:#04080F;	
+	border-bottom: 2px solid #F6BF58;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
 
 nav ul{
@@ -34,14 +36,18 @@ nav li{
 
 
 nav li:hover{
-	background:#F6BF58;
+	background:#333;
 } 
 
 nav a{
 	color:white;
 	text-decoration: none;
-	padding:1vw;
+	padding:1rem;
 	font-weight:bold;
+}
+
+nav a:hover{
+	color:#F6BF58;
 }
 
 
@@ -92,7 +98,7 @@ a.tw{
 	margin: 1vh auto;
 	background:white;
     margin-top: 10vh;
-    background-color: #DAE3E5;
+    background-color: slategray;
     justify-content: center;
     align-content: center;
 }
@@ -173,19 +179,19 @@ p{
 }
 
 .boxF>a:hover{
-    background-color: #385899; 
+    background-color: #333; 
 }
 
 .boxS>a:hover{
-    background-color: #FFFB00;
+    background-color: #333;
 }
 
 .boxI>a:hover{
-    background-color: #AC1587;  
+    background-color: #333;  
 }
 
 .boxT>a:hover{
-    background-color: #1DA1F4;  
+    background-color: #333;  
 }
 
 /***Mobil layout section end***/
@@ -199,58 +205,58 @@ footer{
     text-align: center;
     background-color: #04080F;
     color: white;
+	border-top: 2px solid #F6BF58;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
 
 a{
 	color:white;
+	text-decoration: none;
 }
+
 /***footer section end***/
 
 
+
+/************* DROPDOWN MOBILE***********/
+.dropdown-menu{
+	color:#F6BF58;
+	margin:0;
+   	font-family: 'Teko', sans-serif;
+   	font-size: 1.5rem;
+}
+
+/* Hover dropdown effect START*/
+.dropdown-menu ul li:hover{
+	background:#333;
+}
+
+.menu-content a:hover{
+	color:#F6BF58;
+}
+
+/* Hover dropdown effect END*/
+
 .menu-content a{
-	color:black;
+	color:white;
 	margin:0 0;
-    font-family: arial;
-    font-weight: bold;
-	font-size:18px;
+   	font-family: 'Teko', sans-serif;
+   	font-size: 1.5rem;
+	margin: 0;
 }
 
-@media only screen  and (min-width : 768px) {
-	.dropdown-menu{
-		display:none;
-	}
-    .wrapper{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-}
-
-
-@media only screen  and (max-width : 768px) {
-	
-    nav{
- 		display:none;
-	}
-	
-	   nav{
- 		display:none;
-		margin:0;
-		padding:0;
- 	}
-	
-	input#menu{
-    display: none;
-}
 
 .dropdown-menu{
-    background: white;
-    padding: 20px;
-    border-bottom: 2px solid #603d7b;
+    background: #04080F;
+	padding-left:20px;
+    border-bottom: 2px solid #F6BF58;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
 
 .dropdown-menu ul{
     list-style-type: none;
     padding: 0;
+	margin:0;
 }
 
 .dropdown-menu a{
@@ -282,11 +288,41 @@ input:checked ~ label{
     background: url(../img/open.png) no-repeat left center;
 }
 
+
+@media only screen  and (min-width : 890px) {
+	.dropdown-menu{
+		display:none;
+	}
+    .wrapper{
+    grid-template-columns: repeat(4,1fr);
+    }
+}
+
+
+@media only screen  and (max-width : 890px) {
+	
+    nav{
+ 		display:none;
+	}
+	input#menu{
+    display: none;
+	}
     .wrapper{
     grid-template-columns: 1fr 1fr;  
     }
 }
 
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    nav{
+ 		display:none;
+		margin:0;
+		padding:0;
+ 	}
+
+    .wrapper{
+    	grid-template-columns: 1fr;  
+    }
+}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     nav{
@@ -296,7 +332,7 @@ input:checked ~ label{
  	}
 
     .wrapper{
-    grid-template-columns: 1fr;  
+    	grid-template-columns: 1fr;  
     }
 }
 
