@@ -234,6 +234,13 @@ p{
 
 /***Mobil layout section end***/
 
+.klipp{
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+}
+
 /***footer section start***/
 footer{
     position: relative;
