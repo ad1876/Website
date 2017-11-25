@@ -1,0 +1,339 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #DAE3E5;    
+    margin-top: 100px;
+
+}
+
+/********* NAVBAR SECTION START*********/
+
+nav{
+	display:flex;
+	justify-content: space-between;
+	position:fixed;
+	top:0;
+	width:100%;
+	background:#04080F;	
+}
+
+nav ul{
+	display:flex;
+	list-style-type: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+}
+
+nav li{
+	padding:0.8vw 1.5vw;
+}
+
+
+nav li:hover{
+	background:#F6BF58;
+} 
+
+nav a{
+	color:white;
+	text-decoration: none;
+	padding:1vw;
+	font-weight:bold;
+}
+
+
+/* Icons on NavBar*/
+
+.icon{
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-position: center;
+}
+a.home{
+    background-image: url(../img/whitehome.png);
+}
+
+a.fb{
+	background-image: url(../img/facebook.png);  
+}
+
+a.insta{
+	background-image: url(../img/instagram.png);
+}
+
+a.snap{
+	background-image: url(../img/snapchat.png);
+}
+
+a.tw{
+	background-image: url(../img/twitter.png);
+}
+/********* NAVBAR SECTION END*********/
+
+/************ Banner start**************/
+.banner{
+    background-image: url(../img/Loss-Of-Privacy-Svart.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/**********  Banner end ************/
+
+/************* Mobil section start ******************/
+/***Mobil background section***/
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+	width:100%;
+	max-width: 80%;
+	margin: 1vh auto;
+	background:white;
+    margin-top: 10vh;
+    background-color: #DAE3E5;
+    justify-content: center;
+    align-content: center;
+}
+
+/***Mobil layout section start***/
+aside{
+	height: 70vh;
+    width: 18rem;
+	display:grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 7fr ;
+	text-align: center;
+    margin: 1vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.panel-header{
+    display: grid;
+    grid-template-columns: 1fr;
+	padding:1vw;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+.panel-headerTop{
+    display: grid;
+    grid-template-columns: 1fr;
+	padding:1vw;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+
+
+.panel-headerBottom{
+    display: grid;
+    grid-template-columns: 1fr;
+	padding:1vw;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.panel-body{
+	overflow-y:scroll;
+	margin:0;
+    text-align: left;
+    background-color: antiquewhite;
+    border-left:solid #04080F 2px;
+    border-right:solid #04080F 2px;
+}
+
+.panel-body-media{
+	margin:0;
+    width: 1px;
+    text-align: left;
+    background-color: antiquewhite;
+    border-left:solid #04080F 2px;
+    border-right:solid #04080F 2px;
+}
+
+p{
+    margin: 0.5rem;
+	line-height: 1.5rem;
+	padding: 1vw;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #04080F;
+    padding: 0.2vw 0;
+    border:2px solid #04080F;
+}
+
+.box>div{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0;
+    align-self: center;
+    margin: 6px auto;
+}
+
+.face{
+    background-image: url(../img/facebook.png);
+}
+
+.snap{
+    background-image: url(../img/snapchat.png);
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+}
+
+.boxF>a:hover{
+    background-color: #385899; 
+}
+
+.boxS>a:hover{
+    background-color: #FFFB00;
+}
+
+.boxI>a:hover{
+    background-color: #AC1587;  
+}
+
+.boxT>a:hover{
+    background-color: #1DA1F4;  
+}
+
+/***Mobil layout section end***/
+
+/***footer section start***/
+footer{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #04080F;
+    color: white;
+}
+
+a{
+	color:white;
+}
+/***footer section end***/
+
+
+.menu-content a{
+	color:black;
+	margin:0 0;
+    font-family: arial;
+    font-weight: bold;
+	font-size:18px;
+}
+
+@media only screen  and (min-width : 768px) {
+	.dropdown-menu{
+		display:none;
+	}
+    .wrapper{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media only screen  and (max-width : 768px) {
+	
+    nav{
+ 		display:none;
+	}
+	
+	   nav{
+ 		display:none;
+		margin:0;
+		padding:0;
+ 	}
+	
+	input#menu{
+    display: none;
+}
+
+.dropdown-menu{
+    background: white;
+    padding: 20px;
+    border-bottom: 2px solid #603d7b;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.dropdown-menu a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown-menu label{
+    display: block;
+    cursor: pointer;
+    background: url(../img/closed.png) no-repeat left center;
+    padding: 30px 0 30px 80px;
+} 
+
+/* Toggle Effect */
+
+.menu-content{
+    max-height: 0;
+    overflow: hidden;
+}
+
+input:checked ~ .menu-content{
+    max-height: 1000px;
+    transition: all ease 1s;
+}
+
+input:checked ~ label{
+    background: url(../img/open.png) no-repeat left center;
+}
+
+    .wrapper{
+    grid-template-columns: 1fr 1fr;  
+    }
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    nav{
+ 		display:none;
+		margin:0;
+		padding:0;
+ 	}
+
+    .wrapper{
+    grid-template-columns: 1fr;  
+    }
+}
+
+/************* Mobil section end ******************/
+
