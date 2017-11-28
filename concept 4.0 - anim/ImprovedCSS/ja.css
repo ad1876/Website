@@ -1,0 +1,92 @@
+body{
+    
+    display: flex;
+    margin: 150px auto;
+
+    background-color: firebrick;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body>div>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+body>div{
+    display: flex;
+    background-image: url(../img/varning.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+    @media only screen and (max-width : 319px){
+        body{
+           display: none;
+        }
+    }
+
+
+
+@media only screen and (min-width : 450px) and (max-width : 699px) {
+    
+    body{
+        margin: 150px auto;
+    }
+    
+    h1{
+        font-size:  1.1rem;
+    }
+    
+    p{
+    font-size: 1rem;
+    font-weight: bold;
+}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 449px) {
+    
+    body{
+        margin: 150px auto;
+    }
+    
+    h1{
+        font-size:  0.9rem;
+    }
+    
+    p{
+    font-size: 0.7rem;
+    font-weight: bold;
+} 
+}
+
+
+@media only screen and (min-width : 700px) and (max-width : 1200px) {
+    
+    body{
+    width: 90%;
+}
+    
+
+@media only screen and (min-device-width : 700px) and (max-device-width : 1200px) {
+    
+    body{
+    width: 90%;
+}
+    
+
+}
+    
+    
