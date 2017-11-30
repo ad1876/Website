@@ -370,7 +370,6 @@ footer a{
 		display:none;
 	}
     
-    
     .wrapper{
     grid-template-columns: repeat(4,1fr);
     }
@@ -383,12 +382,15 @@ footer a{
     nav{
  		display:none;
 	}
+    
 	input#menu{
     display: none;
 	}
+    
     .wrapper{
     grid-template-columns: repeat(2,1fr);  
     }
+    
     .ref-chapter{
     grid-template-columns: repeat(2,1fr);
     }
@@ -407,6 +409,7 @@ footer a{
     .wrapper{
     	grid-template-columns: 1fr;  
     }
+    
     .ref-chapter{
     grid-template-columns: 1fr;
     }
@@ -424,6 +427,7 @@ footer a{
     .wrapper{
     	grid-template-columns: 1fr;  
     }
+    
     .ref-chapter{
     grid-template-columns: 1fr;
     }
