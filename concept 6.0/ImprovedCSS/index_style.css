@@ -267,6 +267,7 @@ a.tw{
 
 /*** Frame for Youtube clips ***/
 iframe{
+    border: 0px;
     height: 100%;
     width: 100%;
 }
