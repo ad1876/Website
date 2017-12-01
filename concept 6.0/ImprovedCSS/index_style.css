@@ -7,7 +7,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
-    background-color: #DAE3E5;    
+    background-color: slategray;    
 }
 
 /*------------------- NAVBAR DROPDOWN MOBILE START -------------------*/
@@ -103,8 +103,7 @@ nav ul{
 }
 
 nav li{
-	padding: 10px 1.5vw;
-	
+	padding: 10px 12px;
 }
 
 nav li:hover{
@@ -150,7 +149,7 @@ a.snap{
 a.tw{
 	background-image: url(../img/twitter.png);
 }
-/*---------------------------- NAVBAR SECTION END --------------------------*/
+/*---------------------------- NAVBAR PC SECTION END --------------------------*/
 
 
 
@@ -174,10 +173,10 @@ a.tw{
     display: grid;
     grid-template-columns: 1fr;
 	width:100%;
-	max-width: 80%;
+	max-width: 70%;
 	margin: 1vh auto;
 	background:white;
-    background-color: #DAE3E5;
+    background-color: slategray;
     justify-content: center;
     align-content: center;
 }
@@ -213,7 +212,7 @@ a.tw{
 	max-width: 80%;
 	margin: 1vh auto;
 	background:white;
-    background-color: #DAE3E5;
+    background-color: slategray;
     justify-content: center;
     align-content: center;
 }
@@ -237,7 +236,7 @@ a.tw{
 .panel-header{
     display: grid;
     grid-template-columns: 1fr;
-	padding:1vw;
+	padding: 10px;
     text-align: center;
     background-color: #04080F;
     color: white;
@@ -291,7 +290,7 @@ p{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #04080F;
-    padding: 0.2vw 0;
+    padding: 1px 0;
     border:2px solid #04080F;
 }
 
@@ -363,8 +362,8 @@ footer a{
 
 
 
-
-/*----------------- Responsive over 890px start -------------------------*/
+/*---------------------- Responsive start -------------------------------*/
+/***--- Responsive over 890px start ---***/
 @media only screen  and (min-width : 890px) {
 	/**** Hide dropdown-menu ***/
     .dropdown-menu{
@@ -375,9 +374,9 @@ footer a{
     grid-template-columns: repeat(4,1fr);
     }
 }
-/*----------------- Responsive over 890px end ---------------------------*/
+/***--- Responsive over 890px end ---***/
 
-/*----------------- Responsive under 890px start-------------------------*/
+/***--- Responsive under 890px start ---***/
 @media only screen  and (max-width : 890px) {
 	
     nav{
@@ -397,9 +396,9 @@ footer a{
     }
 
 }
-/*------------------- Responsive over 890px end ---------------------------*/
+/***--- Responsive over 890px end ---***/
 
-/*----------------------- Responsive normal start -------------------------*/
+/***--- Responsive normal start ---***/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     nav{
  		display:none;
@@ -415,9 +414,9 @@ footer a{
     grid-template-columns: 1fr;
     }
 }
-/*------------------------ Responsive over 890px end -------------------------*/
+/***--- Responsive over 890px end ---***/
 
-/*-------------------- Responsive mobile device start ------------------------*/
+/***--- Responsive mobile device start ---***/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     nav{
  		display:none;
@@ -425,6 +424,10 @@ footer a{
 		padding:0;
  	}
 
+    .wrapper-top{
+	max-width: 80%;
+    }
+    
     .wrapper{
     	grid-template-columns: 1fr;  
     }
@@ -433,4 +436,5 @@ footer a{
     grid-template-columns: 1fr;
     }
 }
-/*-------------------- Responsive mobile device end ---------------------------*/
+/***--- Responsive mobile device end ---***/
+/*---------------------- Responsive end ---------------------------------*/
