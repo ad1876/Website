@@ -1,3 +1,5 @@
+/**Keyframes Start**/
+
 @keyframes Bg {
     0%   {background-color:white;}
     25%  {background-color:sandybrown;}
@@ -66,6 +68,9 @@
   }
 }
 
+/**Keyframes End**/
+
+/* Body of the page with animation */
 body {
     animation: mus 0.35s infinite;
     display: grid;
@@ -76,6 +81,7 @@ body {
     text-align: center;
 }
 
+
 body > .wrapper{
     margin-top: 5vw;
     display: grid;
@@ -83,6 +89,7 @@ body > .wrapper{
     align-items: center;
 }
 
+/* Font animation */
 h1{
     font-size: 3rem;
     animation-name: spinnerX;
@@ -91,13 +98,15 @@ h1{
      animation-duration: 4s;
 }
 
+
+/* Background animation */
 div {
     animation-name: Bg;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction: alternate; 
-    
+    animation-direction: alternate;    
 }
+
 
 
 h2{
@@ -105,27 +114,33 @@ h2{
      margin: 0px auto;
 }
 
+/* Grid start*/
 .wrapper{
     display: grid;
     grid-template-columns: 1fr ;
-    
 }
 
+
+/* Animation for Click Here */
 .aa{
   animation-name: djup;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 4s;
 }
+
+
+/* Animation flashing text */
 .wrapper>p{
     border-radius: 10%;
     text-align: center; 
     font-size:  1.5rem;
     animation: notrainbow 10s infinite alternate;
     margin-bottom: 100px;
-    
 }
 
+
+/* Animation for the magnifying glass */
 .bild> div{
     margin-top: 1000px;
     margin: 0px auto;
@@ -144,10 +159,12 @@ h2{
     animation-duration: 10s;
 }
 
+/* Increase size of magnifying glass upon hover*/
 .bild>div:hover{
     height: 230px;
 }
 
+/* Footer animation*/
 footer{
     position: relative;
     text-align: center;
@@ -158,12 +175,6 @@ footer{
     animation-delay: 0.5s;
     animation-direction: alternate   ;
 }
-
-a{
-     cursor: pointer;
-}
-
-
 
 
 /*----------------- Responsive over 890px start -------------------------*/
