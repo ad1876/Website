@@ -1,0 +1,146 @@
+/**-------------Keyframes to specify the animation code------------**/
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, -200px 400px;}
+}
+
+@keyframes santa {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+@keyframes slideleft {
+    100% { left: 82%; }
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(-360deg); }
+}
+
+@keyframes night{
+    0% {background-color: white;}
+    25%{background-color: skyblue;}
+    50%{background-color: dodgerblue;}
+    75%{background-color: black;}
+    100%{background-color: white;}
+}
+
+@keyframes size{
+    0%{font-size: 1.0rem;}
+    0%{color: darkred;}
+    25%{font-size: 2.0rem;}
+    25%{color: red;}
+    50%{font-size: 2.5rem;}
+    50%{color: orangered;}
+    75%{font-size: 3.0rem;}
+    75%{color: darkred;}
+    100%{font-size: 5.0rem;}
+    100%{color: yellow;}
+    0%{font-size: 1.0rem;}
+    0%{color: darkred;}
+}
+
+@keyframes sizemini{
+    0%{font-size: 1.0rem;}
+    0%{color: darkred;}
+    25%{font-size: 1.2rem;}
+    25%{color: red;}
+    50%{font-size: 1.6rem;}
+    50%{color: orangered;}
+    75%{font-size: 2.0rem;}
+    75%{color: darkred;}
+    100%{font-size: 2.5rem;}
+    100%{color: yellow;}
+    0%{font-size: 1.0rem;}
+    0%{color: darkred;}
+}
+
+/**----------Keyframes to specify the animation code End ---------**/
+
+/* Animation for the background color */
+body {
+    display: flex;
+    margin: 0px auto;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center; 
+    background-image: url(bilder/bgsnowy.png);
+    background-size: cover;
+    animation-name: night;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+/* For the House */
+.wrapper {
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    background-image: url(bilder/cmass.png);
+    width: 100%;
+    height: 100%; 
+}
+
+/* Animation for the snow flakes */
+.snow {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+	background-image: url('bilder/Snow.png'), url('bilder/Snow.png');
+	animation: snow 10s linear infinite;
+}
+
+/* Animation of the flying santa*/
+.santa {
+    background-image: url(bilder/santamini.png);
+    height: 170px;
+    width: 250px;
+    background-size: cover;
+    position: relative;
+    color: white;
+    left: -20%;
+    animation: slideleft 10s infinite;
+    animation-delay: 5s;
+    animation-direction: alternate;
+}
+
+/* Animation Increasing text size*/
+.snow > h1 {  
+    animation-delay: 0s;
+    animation: size 10s infinite;
+    animation-direction: alternate;
+    margin: 0px auto;
+}
+
+/*---------------------- Responsive start -------------------------------*/
+
+
+
+/***--- Responsive under 1100px start ---***/
+@media only screen  and (max-width : 1100px) {
+    
+    .wrapper{
+        width: 100%;
+        height: 100%; 
+        background-size: contain;
+        
+    }
+    
+    .snow {
+        height: 100%;
+    }
+    
+    .snow > h1{
+            animation: sizemini 10s infinite;
+    }
+}
+/*---------------------- Responsive end ---------------------------------*/
+
+
+
+
