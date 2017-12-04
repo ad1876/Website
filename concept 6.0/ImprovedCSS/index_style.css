@@ -7,7 +7,8 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
-    background-color: slategray;    
+    background-color: slategray;
+    min-width: 321px;
 }
 
 /*------------------- NAVBAR DROPDOWN MOBILE START -------------------*/
@@ -185,6 +186,7 @@ a.tw{
 .wrapper-top aside{
 	height: 85vh;
     width: 100%;
+    min-width: 290px; 
 	display:grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.5fr 7fr ;
@@ -233,6 +235,7 @@ a.tw{
 .wrapper aside{
 	height: 70vh;
     width: 18rem;
+    min-width: 290px; 
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 0.5fr 7fr ;
@@ -356,6 +359,9 @@ p{
 /*----------------------------- Footer start ---------------------------*/
 /*** Body of footer ***/
 footer{
+    display: grid;
+    justify-content: center;
+    align-self: center;
     position: relative;
     right: 0;
     bottom: 0;
@@ -366,9 +372,39 @@ footer{
 	border-top: 2px solid #F6BF58;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
+footer>div{
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: "img tex"
+                         "cop cop"
+}
 
-footer a{
+.logo{
+    background-image: url(../img/Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-area: img;
+    margin: 5px;
+}
+.kontakt{
+    grid-area: tex;
+    text-align: left;
+}
+
+.kontakt a{
 	color: white;
+}
+
+.copy{
+    grid-area: cop;
+}
+
+footer p{
+    margin: 5px;
+    padding: 2px;
 }
 /*---------------------------- Footer end -------------------------------*/
 
@@ -429,7 +465,7 @@ footer a{
 /***--- Responsive over 890px end ---***/
 
 /***--- Responsive normal start ---***/
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (max-width : 480px) {
     nav{
  		display: none;
 		margin: 0;
