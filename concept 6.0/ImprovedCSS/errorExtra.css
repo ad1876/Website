@@ -1,0 +1,182 @@
+@keyframes Bg {
+    0%   {background-color:white;}
+    25%  {background-color:sandybrown;}
+    50%  {background-color:white;}
+    75%  {background-color:sandybrown;}
+    100% {background-color:white;}
+}
+
+@keyframes Texten {
+    0%   {background-color:White; left:0px; top:0px;}
+    25%  {background-color:Black; left:200px; top:0px;}
+    50%  {background-color:Orange; left:200px; top:200px;}
+    75%  {background-color:Black; left:0px; top:200px;}
+    100% {background-color:Red; left:0px; top:0px;}
+}
+
+@-webkit-keyframes notrainbow {
+    0% {color:Black;}
+    25%  {color:white;}
+    50%  {color:Black;}
+    75%  {color:white;}
+    100% {color:black;}
+}
+
+@keyframes slideleft {
+    100% { left: 0; }
+}
+
+@keyframes spinnerY {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(-360deg); }
+}
+
+@keyframes spinnerX {
+  from { transform: rotateX(0deg); }
+  to { transform: rotateX(-360deg); }
+}
+
+@keyframes djup {
+  0% { text-shadow: 0 0 black; }
+  25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+  50% { text-shadow: 0 0 black; }
+  75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+  100% { text-shadow: 0 0 black; }
+}
+
+
+@keyframes mus{
+  0%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_1.png"), auto;
+  }
+  20%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_2.png"), auto;
+  }
+  40%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_3.png"), auto;
+  }
+  60%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_4.png"), auto;
+  }
+  80%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_5.png"), auto;
+  }
+  100%{ 
+    cursor: url("http://jantimon.nl/running_man/running_man_1.png"), auto;
+  }
+}
+
+body {
+    animation: mus 0.35s infinite;
+    display: grid;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px auto;
+    text-align: center;
+}
+
+body > .wrapper{
+    margin-top: 5vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    animation-name: spinnerX;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+     animation-duration: 4s;
+}
+
+div {
+    animation-name: Bg;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    
+}
+
+
+h2{
+    font-size:  2.5rem;
+     margin: 0px auto;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+}
+
+.aa{
+  animation-name: djup;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+.wrapper>p{
+    border-radius: 10%;
+    text-align: center; 
+    font-size:  1.5rem;
+    animation: notrainbow 10s infinite alternate;
+    margin-bottom: 100px;
+    
+}
+
+.bild> div{
+    margin-top: 1000px;
+    margin: 0px auto;
+    display: grid;
+    justify-content: center;
+    width: 40%;
+    background-repeat: no-repeat;
+    height: 150px;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/error.v1.png); 
+    transition: all .8s ease-in-out; 
+    animation-name: spinnerY;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+.bild>div:hover{
+    height: 230px;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    color: white;
+    left: -100%;
+    width: 100%;
+    animation: slideleft 5s infinite;
+    animation-delay: 0.5s;
+    animation-direction: alternate   ;
+}
+
+a{
+     cursor: pointer;
+}
+
+
+
+
+/*----------------- Responsive over 890px start -------------------------*/
+@media only screen  and (max-width : 890px) {
+	/**** Hide dropdown-menu ***/
+h1{
+    font-size:  1.0rem;
+}
+    p{
+        font-size:  1.0rem;
+             margin: 0px auto;
+    }
+
+
+}
+/*----------------- Responsive over 890px end ---------------------------*/
