@@ -107,18 +107,18 @@ nav li{
 }
 
 nav li:hover{
-	background:#333;
+	background: #333;
 } 
 
 nav a{
-	color:white;
+	color: white;
 	text-decoration: none;
-	padding:1rem;
-	font-weight:bold;
+	padding: 1rem;
+	font-weight: bold;
 }
 
 nav a:hover{
-	color:#F6BF58;
+	color: #F6BF58;
 }
 
 
@@ -127,7 +127,7 @@ nav a:hover{
 	background-repeat: no-repeat;
     background-size: contain;
 	background-position: center;
-	display:flex;
+	display: flex;
 	align-items: center;
 }
 a.home{
@@ -172,10 +172,10 @@ a.tw{
 .wrapper-top{
     display: grid;
     grid-template-columns: 1fr;
-	width:100%;
+	width: 100%;
 	max-width: 70%;
 	margin: 1vh auto;
-	background:white;
+	background: white;
     background-color: slategray;
     justify-content: center;
     align-content: center;
@@ -220,10 +220,10 @@ a.tw{
 .wrapper{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-	width:100%;
+	width: 100%;
 	max-width: 80%;
 	margin: 1vh auto;
-	background:white;
+	background: white;
     background-color: slategray;
     justify-content: center;
     align-content: center;
@@ -252,7 +252,7 @@ a.tw{
     text-align: center;
     background-color: #04080F;
     color: white;
-    border-top-left-radius:15px;
+    border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 /*--------------------------- Head part end ----------------------------*/
@@ -260,12 +260,12 @@ a.tw{
 /*--------------------------- Body part start --------------------------*/
 /*** Body part of wrapper ***/
 .panel-body{
-	overflow-y:scroll;
-	margin:0;
+	overflow-y: scroll;
+	margin: 0;
     text-align: left;
     background-color: antiquewhite;
-    border-left:solid #04080F 2px;
-    border-right:solid #04080F 2px;
+    border-left: solid #04080F 2px;
+    border-right: solid #04080F 2px;
 }
 
 /*** Wrapper for Youtube clips ***/
@@ -303,7 +303,7 @@ p{
     border-bottom-right-radius: 15px;
     background-color: #04080F;
     padding: 1px 0;
-    border:2px solid #04080F;
+    border: 2px solid #04080F;
 }
 
 /*** icons in feet part ***/
@@ -377,16 +377,24 @@ footer a{
 /*---------------------- Responsive start -------------------------------*/
 /***--- Responsive over 890px start ---***/
 @media only screen  and (min-width : 890px) {
-	/**** Hide dropdown-menu ***/
+    
+    .middlenav{
+        position: relative;
+        margin-left: -35.05px;
+    }
+    
+    .rightnav{
+        margin-right: 56px;
+    }
+    
+    /**** Hide dropdown-menu ***/
     .dropdown-menu{
-		display:none;
+		display: none;
 	}
     
     .wrapper{
         grid-template-columns: repeat(4,1fr);
     }
-    
-    
 }
 /***--- Responsive over 890px end ---***/
 
@@ -394,7 +402,7 @@ footer a{
 @media only screen  and (max-width : 890px) {
 	
     nav{
- 		display:none;
+ 		display: none;
 	}
     
 	input#menu{
@@ -423,9 +431,9 @@ footer a{
 /***--- Responsive normal start ---***/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     nav{
- 		display:none;
-		margin:0;
-		padding:0;
+ 		display: none;
+		margin: 0;
+		padding: 0;
  	}
 
     .wrapper-top{
@@ -454,9 +462,9 @@ footer a{
 /***--- Responsive mobile device start ---***/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     nav{
- 		display:none;
-		margin:0;
-		padding:0;
+ 		display: none;
+		margin: 0;
+		padding: 0;
  	}
 
     .wrapper-top{
