@@ -13,7 +13,7 @@ body{
 }
 
 .image{
-	margin-top:100px;
+	margin-top:20px;
 	background-image: url(../img/lossofp.PNG);
 	background-size: contain;
 	background-repeat: no-repeat;
