@@ -74,8 +74,8 @@ button{
 
 @keyframes drop{
 	0%{ }
-	70%{ transform:translateY(600px)}
-	100%{transform:translateY(550px) }
+	70%{ transform:translateY(550px)}
+	100%{transform:translateY(500px) }
 }
 
 
