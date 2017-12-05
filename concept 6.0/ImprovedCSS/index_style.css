@@ -20,6 +20,7 @@ body{
    	font-size: 1.5rem;
     background: #04080F;
 	padding-left:20px;
+	padding-right: 20px;
     border-bottom: 2px solid #F6BF58;
     box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
 }
@@ -39,9 +40,46 @@ body{
 }
 
 /***--- Hover dropdown effect START ---***/
-.dropdown-menu ul li:hover{
-	background:#333;
+
+.menu-content li:nth-child(1):hover{
+	background-color: #333;
+
 }
+.menu-content li:nth-child(2):hover{
+	background-color: #333;
+
+}
+.menu-content li:nth-child(3):hover{
+	background-color: #333;
+
+}
+.menu-content li:nth-child(5):hover{
+	background-color: #333;
+
+}
+.menu-content li:nth-child(6):hover{
+	background-color: #333;
+
+}
+/*** Flex the item on mobile navbar***/
+.icon-flex{
+	display:flex;
+}
+.icon-flex a{
+	color: white;
+	text-decoration: none;
+	padding: 1rem;
+	font-weight: bold;
+}
+
+.icon-flex li{
+	padding: 10px 20px;
+}
+
+.icon-flex li:hover{
+	background-color:#333;
+}
+/*****************************************/
 
 .menu-content a:hover{
 	color:#F6BF58;
@@ -130,6 +168,7 @@ nav a:hover{
 	background-position: center;
 	display: flex;
 	align-items: center;
+	
 }
 a.home{
     background-image: url(../img/whitehome.png);
