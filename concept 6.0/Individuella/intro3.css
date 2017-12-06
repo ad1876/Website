@@ -1,3 +1,4 @@
+
 body{
     background-color: #333;
     height: 100vh;
@@ -25,6 +26,7 @@ div>.image{
     display:grid;
 }
 
+/* Displayng the gif*/
 .image{
     display: flex;
     background-image: url(../img/Loss.gif);
@@ -34,6 +36,7 @@ div>.image{
     margin-bottom: 10vh;    
 }
 
+/* Timer set on here for the hidden window*/
 .avtal div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,14 +46,13 @@ div>.image{
     align-items: center;
 }
 
-
-
 p{
     font-family: Courier;
     font-size: 1rem;
     text-align: left;
 }
 
+/* Hover effect here*/
 .button:hover{
     border: 1px solid;
     box-shadow: 0 0 2vh rgba(255, 255, 255, 1);
@@ -65,6 +67,8 @@ p{
     color: blue;
 }
 
+/*---------------------- Responsive start -------------------------------*/
+/***--- Responsive under 890px start ---***/
 @media only screen  and (min-width : 890px){
     
     .avtal>div:first-child .button{
@@ -82,7 +86,9 @@ p{
     }
 }
 
+/***--- Responsive under 890px end ---***/
 
+/***--- Responsive over 890px start ---***/
 @media only screen  and (max-width : 890px) {
 	
     body{
@@ -128,9 +134,9 @@ p{
     }
     
 }
+/***--- Responsive over 890px end ---***/
 
-
-
+/***--- Responsive mobile device start ---***/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     body{
         overflow: hidden;
@@ -159,6 +165,7 @@ p{
         text-align: center;
     }
     
+/* The Button */
     .button{
         font: 10px;
         width: 1px;
@@ -171,4 +178,5 @@ p{
     }
     
 }
-
+/***--- Responsive mobile device end ---***/
+/*---------------------- Responsive end -------------------------------*/
