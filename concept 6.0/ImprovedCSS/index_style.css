@@ -284,7 +284,6 @@ a.tw{
     align-content: center;
 }
 /*------------- Wrapper for mobile layout section end ------------------*/
-
 /*--------------------------- Head part start --------------------------*/
 /*** Head part of wrapper ***/
 .panel-header{
@@ -294,6 +293,9 @@ a.tw{
     text-align: center;
     background-color: #04080F;
     color: white;
+}
+
+.wrapper .panel-header{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -341,11 +343,15 @@ p{
 .box{
     display: grid;
     grid-template-columns: 1fr;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
     background-color: #04080F;
     padding: 1px 0;
     border: 2px solid #04080F;
+}
+
+
+.wrapper .box{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /*** icons in feet part ***/
