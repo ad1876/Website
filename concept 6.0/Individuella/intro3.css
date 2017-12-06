@@ -65,6 +65,8 @@ p{
     color: blue;
 }
 
+/*---------------------- Responsive start -------------------------------*/
+/***--- Responsive under 890px start ---***/
 @media only screen  and (min-width : 890px){
     
     .avtal>div:first-child .button{
@@ -81,8 +83,9 @@ p{
         border-radius: 5px;
     }
 }
+/***--- Responsive under 890px end ---***/
 
-
+/***--- Responsive over 890px start ---***/
 @media only screen  and (max-width : 890px) {
 	
     body{
@@ -128,9 +131,10 @@ p{
     }
     
 }
+/***--- Responsive over 890px end ---***/
 
 
-
+/***--- Responsive mobile device start ---***/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     body{
         overflow: hidden;
@@ -171,4 +175,5 @@ p{
     }
     
 }
-
+/***--- Responsive mobile device end ---***/
+/*---------------------- Responsive end ---------------------------------*/
