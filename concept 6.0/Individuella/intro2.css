@@ -76,11 +76,7 @@ h1 {
       font-size: 4rem;
       color:black;
  }
-
-
-
 /*---------------------- Responsive start -------------------------------*/
-
 
 
 /***--- Responsive under 890px start ---***/
@@ -108,11 +104,7 @@ h1 {
 /***--- Responsive under 890px end ---***/
 
 
-
-
-
-
-/***--- Responsive normal start ---***/
+/***--- Responsive from 320 to 480 start ---***/
 @media only screen and (min-width : 320px) and (max-width : 480px) {
     body{
         width: 100vw;
@@ -144,10 +136,7 @@ h1 {
     }
     
 }
-/***--- Responsive over 890px end ---***/
-
-
-
+/***--- Responsive from 328 to 480 end ---***/
 
 
 /***--- Responsive mobile device start ---***/
