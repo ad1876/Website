@@ -12,7 +12,7 @@ body{
 /* Background image */
 body>div{
     display: flex;
-    background-image: url(../img/varning.gif);
+    background-image: url(../img/varning.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 80vh;
@@ -35,8 +35,16 @@ body>div>div{
 p{
     font-size: 1.2rem;
     font-weight: bold;
+    color: darkgray;
 }
 
+h1{
+    color: darkgray;
+}
+
+a{
+    color: ;
+}
 /***************** Responsive for under 890px ***********************/
 @media only screen  and (max-width : 890px) {
 	
