@@ -7,9 +7,26 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
-    background-color: slategray;
+    background-color: #333;
     min-width: 321px;
 }
+
+/*OM OSS*/
+.profilepic{
+	border-radius:100%;
+	width:200px;
+	height:200px;
+}
+
+.grid-container{
+	margin:10px 0;
+	display:grid;
+	text-align: center;
+	color:white;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap:10px;
+}
+
 
 /*------------------- NAVBAR DROPDOWN MOBILE START -------------------*/
 /*** Dropdown-menu body ***/
@@ -192,8 +209,6 @@ a.tw{
 /*---------------------------- NAVBAR PC SECTION END --------------------------*/
 
 
-
-
 /*---------------------------- Banner start --------------------------------*/
 .banner{
     background-image: url(../img/Loss-Of-Privacy-Svart.gif);
@@ -202,7 +217,6 @@ a.tw{
     background-position: center;
 }
 /*---------------------------- Banner end ----------------------------------*/
-
 
 
 
@@ -216,7 +230,7 @@ a.tw{
 	max-width: 70%;
 	margin: 1vh auto;
 	background: white;
-    background-color: slategray;
+    background-color: #333;
     justify-content: center;
     align-content: center;
 }
@@ -265,7 +279,7 @@ a.tw{
 	max-width: 80%;
 	margin: 1vh auto;
 	background: white;
-    background-color: slategray;
+    background-color: #333;
     justify-content: center;
     align-content: center;
 }
@@ -397,9 +411,6 @@ p{
     background-color: #1DA1F4;  
 }
 /*--------------------- Feet part of wrapper end -----------------------*/
-
-
-
 
 /*----------------------------- Footer start ---------------------------*/
 /*** Body of footer ***/
