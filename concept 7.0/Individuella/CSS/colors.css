@@ -1,0 +1,54 @@
+/*
+Alla färgobjekt
+*/
+
+
+body{
+    background-color: whitesmoke;
+   
+}
+
+nav {
+  
+     background-color: black;
+    
+}
+
+.item-b{
+    background-color: black;
+   
+}
+
+.item-c{
+        background-color: #3F3D3D;
+   
+
+    
+}
+
+.item-d{
+    background-color: black;
+}
+.item-a{
+    background-color: black;
+}
+
+
+
+
+.topH3{
+     color: white; 
+}
+
+
+
+.navA a{
+    color: white;
+}
+
+
+.navA:hover{
+  background-color: gray;    
+}
+
+
