@@ -7,7 +7,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Open Sans', sans-serif;
-    background-color: slategray;
+    background-color: #333;
     min-width: 321px;
 }
 
@@ -203,6 +203,21 @@ a.tw{
 }
 /*---------------------------- Banner end ----------------------------------*/
 
+.wrapper-top{
+	width:960px;
+	margin: auto 0;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+.profile{
+	border-radius:100%;
+	width:20%;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+
 
 
 
@@ -216,7 +231,7 @@ a.tw{
 	max-width: 70%;
 	margin: 1vh auto;
 	background: white;
-    background-color: slategray;
+    background-color: #333;
     justify-content: center;
     align-content: center;
 }
@@ -265,7 +280,7 @@ a.tw{
 	max-width: 80%;
 	margin: 1vh auto;
 	background: white;
-    background-color: slategray;
+    background-color: #333;
     justify-content: center;
     align-content: center;
 }
