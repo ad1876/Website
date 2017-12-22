@@ -1,0 +1,62 @@
+/*
+Endast fonter och dekor till text.
+INTE bakgrundsfärger eller placering.
+
+*/
+
+
+
+
+
+body{
+    font-size: 2vw;    
+}
+
+.dropbtn {
+    color: white;
+ 
+}
+
+button{
+  
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+
+.topContainerH3{
+    color: darkblue;
+}
+
+
+.dropdown-content a {
+    color: white;
+  
+    text-decoration: none;
+   
+}
+
+.nameText{
+    font-size: 4vh;
+}
+
+h3{
+    font-family:  "Teko", sans-serif;
+    font-size: 400%;
+}
+
+h4{
+    color: white;
+        font-family:  "Teko", sans-serif;
+     font-size: 7vh;
+
+}
+
+p, a{
+    font-family: "Open Sans", sans-serif
+}
+
+.navA a {
+    font-size: 1.7vw;
+}
