@@ -24,8 +24,7 @@ body{
 p{
   margin: 20px 0;
   height: 120px;
-  overflow-y: scroll;
- 
+  overflow-y: scroll; 
 }
 
 #pop-up{

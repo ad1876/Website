@@ -28,19 +28,23 @@ body{
 	max-width: 1200px;
 	margin: 40px auto;
 	color:white;
-	
 }
 .wrapper-oss h1{
 	text-align:center;
+	margin-bottom:20px;
+	color:#F6BF58;
 }
 
 .wrapper-oss h3{
+	color:#F6BF58;
+}
+
+.wrapper-oss h4{
 	max-width: 700px;
 	width: 100%;
 	margin: 0px auto;
 	padding: 20x;
 	text-align: center;
-	
 }
 
 .grid-container{
@@ -49,9 +53,25 @@ body{
 	text-align: center;
 	color:white;
 	grid-template-columns: repeat(4, 1fr);
-	grid-gap:15px;
+	grid-gap:50px 15px;
 }
 
+button{
+  margin-top: 20px;
+  padding: 10px;
+  color: #fff;
+  background: black;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.kontaktbtn:hover{
+	background-color:#F6BF58;
+	color:black;
+
+}
 /* END OM OSS*/
 
 /*------------------- NAVBAR DROPDOWN MOBILE START -------------------*/
