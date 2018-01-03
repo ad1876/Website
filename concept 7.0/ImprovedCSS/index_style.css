@@ -305,6 +305,11 @@ a.tw{
     margin-bottom: 2rem;
 }
 
+.source{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
 /*------------- Wrapper for big screen mobile layout section end ---------*/
 
 /*------------- Wrapper for mobile layout section start ------------------*/
