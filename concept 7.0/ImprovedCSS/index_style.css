@@ -34,13 +34,13 @@ body{
 	text-align:center;
 }
 
-.wrapper-oss p{
-	font-size: 1rem;
+.wrapper-oss h3{
 	max-width: 700px;
 	width: 100%;
-	margin: 10px auto;
+	margin: 0px auto;
 	padding: 20x;
-	font-weight: bold;
+	text-align: center;
+	
 }
 
 .grid-container{
