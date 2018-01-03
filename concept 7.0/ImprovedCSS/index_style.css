@@ -289,6 +289,10 @@ a.tw{
 .wrapper-top aside div a{
     text-decoration: none;
 }
+
+.link{
+    margin-left: 4rem;
+}
 /*------------- Wrapper for big screen mobile layout section end ---------*/
 
 /*------------- Wrapper for mobile layout section start ------------------*/
@@ -507,6 +511,16 @@ footer p{
     
     .wrapper{
         grid-template-columns: repeat(4,1fr);
+    }
+    
+    h2{
+        margin: 0px 4rem;
+    }
+
+    p{
+       margin: 0px 4rem;
+	   line-height: 1.8rem;
+	   padding: 1vw;
     }
 
 }
