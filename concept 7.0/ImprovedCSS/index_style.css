@@ -318,6 +318,18 @@ a.tw{
 .link{
     margin-left: 4rem;
 }
+
+.losslink{
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.source{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
 /*------------- Wrapper for big screen mobile layout section end ---------*/
 
 /*------------- Wrapper for mobile layout section start ------------------*/
@@ -512,6 +524,8 @@ footer p{
     margin: 5px;
     padding: 2px;
 }
+
+
 /*---------------------------- Footer end -------------------------------*/
 
 
@@ -542,10 +556,15 @@ footer p{
         margin: 0px 4rem;
     }
 
-    p{
+    .wrapper-top p{
        margin: 0px 4rem;
 	   line-height: 1.8rem;
 	   padding: 1vw;
+    }
+    
+    .losslink{
+        margin-left: 6rem;
+        margin-right: 5rem;
     }
 
 }
