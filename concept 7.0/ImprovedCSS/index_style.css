@@ -3,6 +3,18 @@
 	padding:0;
 }
 
+.hej{
+	background-image: url(../img/adnan_b.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+grid-container>div{
+	text-align: center;
+}
+
+
 body{
     display: grid;
     grid-template-columns: 1fr;
@@ -45,6 +57,7 @@ body{
 	margin: 0px auto;
 	padding: 20x;
 	text-align: center;
+	margin-bottom:5px;
 }
 
 .grid-container{
@@ -70,6 +83,7 @@ button{
 .kontaktbtn:hover{
 	background-color:#F6BF58;
 	color:black;
+	cursor:pointer;
 
 }
 /* END OM OSS*/
