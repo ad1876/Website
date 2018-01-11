@@ -86,11 +86,6 @@ p{
 }
 /***--- Responsive under 890px end ---***/
 
-<<<<<<< HEAD
-=======
-/***--- Responsive under 890px end ---***/
-
->>>>>>> a0c4684314f38be55a9650f209e6c21e2132254e
 /***--- Responsive over 890px start ---***/
 @media only screen  and (max-width : 890px) {
 	
@@ -137,12 +132,8 @@ p{
     }
     
 }
-/***--- Responsive over 890px end ---***/
+/***---------------- Responsive over 890px end ---------------------***/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a0c4684314f38be55a9650f209e6c21e2132254e
 /***--- Responsive mobile device start ---***/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     body{
@@ -186,8 +177,4 @@ p{
     
 }
 /***--- Responsive mobile device end ---***/
-<<<<<<< HEAD
-/*---------------------- Responsive end ---------------------------------*/
-=======
-/*---------------------- Responsive end -------------------------------*/
->>>>>>> a0c4684314f38be55a9650f209e6c21e2132254e
+/***-------------------- Responsive end -------------------------------***/
