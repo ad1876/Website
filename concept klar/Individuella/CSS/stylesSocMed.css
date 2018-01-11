@@ -1,0 +1,148 @@
+
+
+html,body
+{
+   
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+
+    font-size: 2vw;
+    
+   
+}
+
+
+.mainPartPage1{
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 0.1%;
+        padding-top: 0.1%;
+     margin-bottom: 0.1%;
+        padding-bottom: 0.1%;
+
+    background-color: #848C8E;
+    border-radius: 50px;
+    
+}
+
+
+
+
+.item-aa img{
+   
+    width: 100%;
+    height: 100px;
+}
+
+.item-ab {
+  background-image: url("../Media/banner2.png");
+    background-size: 100% 100%;
+    
+}
+
+
+
+.topH3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+   padding-left: 20px;
+}
+
+
+
+
+
+.navA{
+   text-align: center;
+  height: 70px;
+    width: auto;
+
+  
+}
+
+
+
+h4{
+   
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+.mainPartPage3{
+    padding-top: 350px;
+}
+
+.mainPartPage3 p{
+    margin: 0px;
+    
+}
+
+
+
+.mainPartPage3:last-child{
+    padding-bottom: 15px;
+}
+
+.socMedLinks{
+    padding-top: 15px;
+}
+
+.imgSocMedLink{
+  
+    height: 70px;
+    width: 100px;;
+}
+
+
+
+
+#l1{
+    background-image: url("../Media/cams.png");
+    background-size: cover;
+   
+
+}
+#l2{
+    background-image: url("../Media/annon.png");
+   background-size: 100% 100%;
+}
+#l3{
+    background-image: url("../Media/soc1.png");
+   background-size: 100% 100%;
+}
+#l4{
+    background-image: url("../Media/soc2.png");
+   background-size: 100% 100%;
+}
+
+
+#l5{
+    background-image: url("../Media/f_logo_online/png/FB-f-Logo__blue_114.png");
+    background-size: 100% 100%;
+   
+
+}
+
+#l6{
+    background-image: url("../Media/snapchat-logo/snap-ghost-yellow.png");
+ background-size: 100% 100%;}
+#l7{
+    background-image: url("../Media/IG_Glyph_Col_white.png");
+ background-size: 100% 100%;}
+#l8{
+    background-image: url("../Media/Twitter_Logo_WhiteOnBlue.png");
+ background-size: 100% 100%;}
+.navA:hover{
+    opacity: 0.3;
+}
+
+#socMedH3{
+    
+}
